@@ -1,0 +1,2 @@
+#!/bin/bash
+echo {aa,ab,...zz} | tr "," "\n" | grep -v oo 
